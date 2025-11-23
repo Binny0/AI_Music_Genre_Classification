@@ -5,47 +5,11 @@ A machine learning project that classifies music into different genres using aud
 
 ## 📁 Project Structure
 
-
-AI_Music_Genre_Classification/
-│
-├── data_preprocessing.py      # Feature extraction and data preparation
-├── model_training.py          # Model training and evaluation
-├── prediction.py              # Genre prediction interface
-├── requirements.txt           # Python dependencies
-├── README.md                  # Project documentation
-│
-├── Data/
-│   └── genres_original/       # GTZAN dataset
-│       ├── blues/
-│       ├── classical/
-│       ├── country/
-│       └── ... (10 genres)
-│
-├── Models/ (generated)
-│   ├── genre_classifier.pkl   # Trained model
-│   ├── scaler.pkl            # Feature scaler
-│   └── label_encoder.pkl     # Label encoder
-│
-└── Output/ (generated)
-    ├── confusion_matrix.png   # Visualization
-    ├── X_train.npy
-    ├── X_test.npy
-    ├── y_train.npy
-    └── y_test.npy
+<img width="1135" height="552" alt="Screenshot 2025-11-23 at 4 54 00 PM" src="https://github.com/user-attachments/assets/0c3ffad0-a072-43d0-961a-84efadbe8a49" />
 
 ## Interface 👇🏻
 ![alt text](image-1.png)
 
-## 📋 Table of Contents
-- [Features](#features)
-- [Dataset](#dataset)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Model Architecture](#model-architecture)
-- [Audio Features](#audio-features)
-- [Results](#results)
-- [Project Structure](#project-structure)
-- [Requirements](#requirements)
 
 ## ✨ Features
 
@@ -89,7 +53,6 @@ source venv/bin/activate
 
 # On Windows
 venv\Scripts\activate
-```
 
 3. **Install dependencies**
 
@@ -222,15 +185,15 @@ Top discriminative features:
 
 ##  Requirements
 
-librosa
-numpy
-pandas
-scikit-learn>
-joblib
-matplotlib
-seaborn
+librosa                                
+numpy                            
+pandas                            
+scikit-learn                                    
+joblib                                        
+matplotlib                                        
+seaborn                                            
 
-Install all dependencies:
+## Install all dependencies:
 
 pip install -r requirements.txt
 
